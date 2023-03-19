@@ -55,7 +55,7 @@ boolean = false
             changePageBtn.setOnClickListener{
 
                 ++page
-                doRequest()
+                nextPage()
             }
             enterBtn.setOnClickListener{
                 page = 1
